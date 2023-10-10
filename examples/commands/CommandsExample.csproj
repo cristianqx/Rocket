@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net461</TargetFrameworks>
+    <AssemblyName>Rocket.Examples.CommandsExample</AssemblyName>
+	<Description>Example project for Rocket commands</Description>
+    <RootNamespace>Rocket.Examples.CommandsExample</RootNamespace>
+    <OutputType>Library</OutputType>
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Rocket.API\Rocket.API.csproj" />
+    <ProjectReference Include="..\..\Rocket.Core\Rocket.Core.csproj" />
+  </ItemGroup> 
+</Project>
